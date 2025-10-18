@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Lanka Tour Guide — Friendly Local Tours</title>
+  <meta name="google-site-verification" content="NfskbuYvQC8vbK1xHsHUXFtMLldqo1i3zHLzpi32m1w" />
+  <!-- Google Font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Sri Lanka Tours</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+        <span class="hamb"></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tours">Tours</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1>Explore Sri Lanka with a Friendly Local Guide</h1>
+      <p>Comfortable vehicle • Flexible itineraries • English speaking • Personalized tours</p>
+
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary" id="heroWhatsApp">Book via WhatsApp</a>
+        <a href="#tours" class="btn btn-outline">See tours</a>
+      </div>
+
+      <p class="hero-note">Prefer WhatsApp booking — quick replies and tour suggestions.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section id="about" class="section about-section">
+  <div class="container about-container">
+    <div class="about-image">
+      <img src="images/about1.jpg" alt="Your guide in Sri Lanka" />
+    </div>
+
+    <div class="about-text">
+      <h2>Meet Your Local Tour Guide</h2>
+      <p>
+        Hello! I'm <strong>Dhanushka</strong>, a licensed driver and friendly local from Sri Lanka. 
+        After years of working as an <strong>Uber driver</strong> and meeting amazing travelers, 
+        I decided to start my own personalized tour service. 
+      </p>
+      <p>
+        I love showing guests the true beauty of Sri Lanka — from golden beaches to ancient cities, 
+        lush tea plantations, and hidden waterfalls. Whether you’re traveling solo or with family, 
+        I’ll make sure your journey is safe, comfortable, and filled with unforgettable moments.
+      </p>
+
+      <div class="about-highlights">
+        <div class="highlight-card">
+          <h4>2+ Years Experience</h4>
+          <p>Professional driving & local guiding experience.</p>
+        </div>
+        <div class="highlight-card">
+          <h4>English + Sinhala</h4>
+          <p>Clear communication and friendly local stories.</p>
+        </div>
+        <div class="highlight-card">
+          <h4>AC Vehicle</h4>
+          <p>Clean, comfortable, and air-conditioned car for tours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== Tours & Packages Section ===== -->
+<section id="tours" class="section tours-section">
+  <div class="container">
+    <h2>Explore My Tour Packages</h2>
+    <p class="section-intro">
+      Discover the beauty of Sri Lanka with customized tours for every traveler — whether you're seeking beaches, culture, or adventure. All tours are private and guided personally by me.
+    </p>
+
+    <div class="tours-grid">
+
+      <!-- 1. Coastal Escape -->
+      <div class="tour-card">
+        <img src="images/galle.jpg" alt="Galle Fort Tour">
+        <h3>Coastal Escape – Negombo & Galle</h3>
+        <p class="duration-price">1 Day · <strong>US$ 65</strong></p>
+        <ul>
+          <li>Visit Galle Fort & Lighthouse</li>
+          <li>Boat safari on Madu River</li>
+          <li>Relax at Unawatuna Beach</li>
+          <li>Private transport & English guide</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Coastal Escape – Negombo & Galle">Book via WhatsApp</button>
+      </div>
+
+      <!-- 2. Kandy & Cultural Triangle -->
+      <div class="tour-card">
+        <img src="images/kandy.jpg" alt="Kandy Temple of the Tooth">
+        <h3>Kandy & Cultural Triangle</h3>
+        <p class="duration-price">2 Days / 1 Night · <strong>US$ 140</strong></p>
+        <ul>
+          <li>Temple of the Tooth & Kandy Lake</li>
+          <li>Dambulla Cave Temple</li>
+          <li>Sigiriya Rock Fortress</li>
+          <li>1-night stay with meals</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Kandy & Cultural Triangle">Book via WhatsApp</button>
+      </div>
+
+      <!-- 3. Hill Country Retreat -->
+      <div class="tour-card">
+        <img src="images/nuwaraeliya.jpg" alt="Nuwara Eliya Tea Plantation">
+        <h3>Hill Country Retreat</h3>
+        <p class="duration-price">3 Days / 2 Nights · <strong>US$ 220</strong></p>
+        <ul>
+          <li>Kandy → Nuwara Eliya → Ella</li>
+          <li>Tea factory visit & waterfalls</li>
+          <li>Scenic train ride experience</li>
+          <li>2-night stay with breakfast</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Hill Country Retreat">Book via WhatsApp</button>
+      </div>
+
+      <!-- 4. Wildlife & Safari Adventure -->
+      <div class="tour-card">
+        <img src="images/yala.jpg" alt="Yala Safari Jeep">
+        <h3>Wildlife & Safari Adventure</h3>
+        <p class="duration-price">4 Days / 3 Nights · <strong>US$ 320</strong></p>
+        <ul>
+          <li>Safari at Yala National Park</li>
+          <li>Udawalawe Elephant Transit Home</li>
+          <li>Stay near nature lodges</li>
+          <li>Meals & transport included</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Wildlife & Safari Adventure">Book via WhatsApp</button>
+      </div>
+
+      <!-- 5. Cultural & Spiritual Trail -->
+      <div class="tour-card">
+        <img src="images/anuradhapura.jpg" alt="Anuradhapura Ruins">
+        <h3>Cultural & Spiritual Trail</h3>
+        <p class="duration-price">5 Days / 4 Nights · <strong>US$ 400</strong></p>
+        <ul>
+          <li>Ancient cities: Anuradhapura & Polonnaruwa</li>
+          <li>Kandy Temple & cultural show</li>
+          <li>Local village experience</li>
+          <li>Comfortable lodging & meals</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Cultural & Spiritual Trail">Book via WhatsApp</button>
+      </div>
+
+      <!-- 6. Beach Bliss Tour -->
+      <div class="tour-card">
+        <img src="images/mirissa.jpg" alt="Mirissa Beach">
+        <h3>Beach Bliss Tour</h3>
+        <p class="duration-price">6 Days / 5 Nights · <strong>US$ 480</strong></p>
+        <ul>
+          <li>Stay across Bentota, Mirissa, and Galle</li>
+          <li>Whale watching at Mirissa</li>
+          <li>Water sports at Bentota</li>
+          <li>Relaxed itinerary for beach lovers</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Beach Bliss Tour">Book via WhatsApp</button>
+      </div>
+
+      <!-- 7. Complete Sri Lanka Tour -->
+      <div class="tour-card">
+        <img src="images/srilanka.jpg" alt="Sigiriya and Hill Country">
+        <h3>Complete Sri Lanka Tour</h3>
+        <p class="duration-price">7 Days / 6 Nights · <strong>US$ 680</strong></p>
+        <ul>
+          <li>Colombo → Cultural Triangle → Hill Country → South Coast</li>
+          <li>Major attractions across the island</li>
+          <li>Private transport, lodging & guide</li>
+          <li>Best for first-time visitors</li>
+        </ul>
+        <button class="btn btn-primary btn-book" data-tour="Complete Sri Lanka Tour">Book via WhatsApp</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ <!-- ===== Traveler Gallery Section ===== -->
+<section id="gallery" class="section gallery-section">
+  <div class="container">
+    <h2>Traveler Gallery</h2>
+    <p class="section-intro">
+      Share your favorite moments from your Sri Lankan adventure! Upload your travel photo and be featured here.
+    </p>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="Traveler photo">
+      <img src="images/gallery2.jpg" alt="Traveler photo">
+      <img src="images/gallery3.jpg" alt="Traveler photo">
+      <img src="images/gallery4.jpg" alt="Traveler photo">
+    </div>
+
+    <!-- Upload Button -->
+    <div class="upload-box">
+      <a href="https://forms.gle/NWqTbGghDd2t6prJA" target="_blank" class="btn btn-primary">Upload Your Photo</a>
+      <p class="upload-note">*Photos will be reviewed before being displayed in the gallery.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact & Booking via WhatsApp -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact & Book</h2>
+
+      <div class="contact-grid">
+        <div>
+          <h3>Contact details</h3>
+          <p><strong>WhatsApp (preferred):</strong> <span id="phoneDisplay">+94 70 511 30303</span></p>
+          <p><strong>Email:</strong> <a href="mailto:yourdriver@example.com">dhanushkarasik@gmail.com</a></p>
+          <p><strong>Languages:</strong> English, Sinhala (basic)</p>
+        </div>
+
+        <div>
+          <h3>Send message & book on WhatsApp</h3>
+          <form id="contactForm">
+            <label>
+              Your name
+              <input type="text" name="name" required>
+            </label>
+
+            <label>
+              Your country / city
+              <input type="text" name="from" placeholder="e.g., Germany / Berlin">
+            </label>
+
+            <label>
+              Interested tour (optional)
+              <input type="text" name="tour" placeholder="e.g., Cultural Kandy day trip">
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="3" placeholder="Any questions or preferred dates"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Send to WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Sri Lanka Tours — Local guide. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
