@@ -18,8 +18,7 @@ The platform highlights the island’s top destinations, travel packages, and lo
 
 🖥️ Demo Preview
 
-(After publishing on GitHub Pages, your live site link will go here)
-👉 Live Demo: https://<your-username>.github.io/travel-safe-srilanka/
+👉 Live Demo: [https://<your-username>.github.io/travel-safe-srilanka/](https://travelsafeinsl.netlify.app/)
 
 🗂️ Project Structure
 
